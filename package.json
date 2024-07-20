@@ -1,9 +1,9 @@
 {
   "name": "acersservicebot",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "Multipurpose Discord bot. Supports multiple languages, has a lot of commands and features. Can work with prefix commands and slash commands. Has an XP system, economy, music, moderation, and much more.",
   "main": "src/index.js",
-  "repository": "https://github.com/Prevter/PulseByte",
+  "repository": "https://github.com/GMDPLUTONIC/Acers-Service-Bot/",
   "author": "GMP",
   "license": "MIT",
   "scripts": {
