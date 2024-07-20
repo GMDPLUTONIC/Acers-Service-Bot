@@ -1,0 +1,71 @@
+{
+    "name": "Acer's Service Bot",
+    "description": "A discord bot with music, economy, levels, fun and more :)",
+    "keywords": "discord,bot,music,moderation,levels,fun",
+    "default_language": "en",
+    "bot": {
+        "token": "<MTI1OTA0OTIzNTM2MjQ4NDIyNQ.G0zsg-.Rxafe3bPQ5YsWUqLo5xdpNXRB2IkT4SqQMStMk>",
+        "prefix": "-",
+        "about": {
+            "repo": "https://github.com/GMDPLUTONIC/Acers-Service-Bot/",
+        },
+        "activity": {
+            "status": "online",
+            "type": "PLAYING",
+            "name": "-help"
+        },
+        "automod": {
+            "enabled": true
+        },
+        "buttons_timeout": 60000,
+        "embed_color": "#14B207",
+        "error_embed_color": "#F04848",
+        "owners": [
+            "400199033915965441"
+        ],
+        "xp": {
+            "enabled": true,
+            "cooldown": 60,
+            "min": 15,
+            "max": 25,
+            "level_up_msg": true,
+            "level_up_msg_delete": 10000,
+            "card": {
+                "accent_color": "#ffbb5c",
+                "background": "#090a0b",
+                "background_opacity": 100
+            }
+        }
+    },
+    "database": {
+        "type": "mongodb",
+        "connection_string": "mongodb://127.0.0.1:27017/bot",
+        "enable_backup": false,
+        "backup_interval": 3600000,
+        "backup_count": 5,
+        "backup_path": "./backups/",
+        "backup_on_start": false
+    },
+    "web": {
+        "enabled": true,
+        "port": 80,
+        "url": "http://localhost/"
+    },
+    "logger": {
+        "level": "info",
+        "file": {
+            "enable": true,
+            "path": "./logs.log"
+        },
+        "stdout": {
+            "enable": true
+        },
+        "webhook": {
+            "enable": false,
+            "override_level": null,
+            "url": ""
+        }
+    },
+    "imgur_client_id": "<Imgur Client ID>",
+    "weather_api_key": "<OpenWeatherMap API Key>"
+}
